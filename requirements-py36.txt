@@ -1,0 +1,14 @@
+# Python 3.6 兼容依赖（Flask 2.0 + Socket.IO v4 客户端，协议兼容）
+# 用法：python -m pip install -r requirements-py36.txt
+# 适用：老麒麟 V10 / CentOS 7 / Ubuntu 16.04 等自带 Python 3.6 的系统
+# 注意：Python 3.6 已停止官方维护，建议条件允许时升级到 3.8+
+Flask==2.0.3
+Werkzeug==2.0.3
+Flask-SocketIO==5.1.1
+python-socketio==5.5.2
+python-engineio==4.3.1
+itsdangerous==2.0.1
+click==8.0.4
+Jinja2==3.0.3
+MarkupSafe==2.0.1
+bidict==0.21.4
